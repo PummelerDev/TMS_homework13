@@ -1,0 +1,36 @@
+ [INVALID]  (wrong length) (empty) (must begin with "docnum" or "contract")
+contract384-dsfjc [INVALID]  (wrong length) (contains forbidden symbols)
+contract3c34543523 [INVALID]  (wrong length)
+docnumj3h4kj324 [VALID]
+docnumdw32fb63d [VALID]
+docnum63634tcwe [VALID]
+34d423rrd [INVALID]  (wrong length) (must begin with "docnum" or "contract")
+docnum643543534 [VALID]
+contractdsf903d [VALID]
+contract r23d 2 [INVALID]  (contains forbidden symbols)
+contrct23.er23d [INVALID]  (contains forbidden symbols) (must begin with "docnum" or "contract")
+contractvgf4544 [VALID]
+docnums0sms9s23 [VALID]
+contract23.er23 [INVALID]  (contains forbidden symbols)
+docnumfdskjds34 [VALID]
+contracty satc3wy4 [INVALID]  (wrong length) (contains forbidden symbols)
+contractdfd0dls [VALID]
+docnumj/3d23323 [INVALID]  (contains forbidden symbols)
+contract4362346 [VALID]
+contractytc3wy4 [VALID]
+docnum [INVALID]  (wrong length)
+docnum23dsr67jg [VALID]
+contract32c4324 [VALID]
+23d42dwqedqwe [INVALID]  (wrong length) (must begin with "docnum" or "contract")
+contract [INVALID]  (wrong length)
+documj/3d23323f4 [INVALID]  (wrong length) (contains forbidden symbols) (must begin with "docnum" or "contract")
+34dfgdg434534rtd [INVALID]  (wrong length) (must begin with "docnum" or "contract")
+contract43tgnj7 [VALID]
+contractnf9idke [VALID]
+q3c6tq234c [INVALID]  (wrong length) (must begin with "docnum" or "contract")
+docnum34y6w43yc3 [INVALID]  (wrong length)
+contract3kj4h2k [VALID]
+docnum423521353 [VALID]
+contract=edsd23 [INVALID]  (contains forbidden symbols)
+docnum45c.345c [INVALID]  (wrong length) (contains forbidden symbols)
+docnumio2s46gae [VALID]
