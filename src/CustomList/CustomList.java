@@ -1,6 +1,5 @@
 package CustomList;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 class CustomList<T> {
@@ -59,7 +58,6 @@ class CustomList<T> {
 		} else {
 			throw new IndexOutOfBoundsException();
 		}
-
 	}
 
 	public int indexOf(T value) {
@@ -142,39 +140,5 @@ class CustomList<T> {
 
 	public boolean isEmpty() {
 		return this.size == 0;
-	}
-
-	public static void main(String[] args) {
-		CustomList<String> stringList = new CustomList<>(1);
-		System.out.println(stringList.size());
-		stringList.add("a1");
-		stringList.add("a2");
-		stringList.add("a3");
-		stringList.add("a4");
-
-		System.out.println(stringList.get(0));
-		System.out.println(stringList.get(3));
-		System.out.println(stringList.toString());
-		System.out.println(Arrays.deepToString(stringList.toArray()));
-		System.out.println(stringList.size());
-		stringList.add("a1");
-		System.out.println(stringList.toString());
-		stringList.remove(2);
-
-		System.out.println(stringList.toString());
-		
-		System.out.println(stringList.indexOf("a3"));
-
-//		ArrayList<String> stringArrayList = new ArrayList<>();
-//		System.out.println(stringArrayList.size());
-//		stringArrayList.add("1");
-//		stringArrayList.add("2");
-//		stringArrayList.add("1");
-//		stringArrayList.add("3");
-//		System.out.println(stringArrayList.size());
-//		String s = stringArrayList.toString();
-//		System.out.println(s);
-//		System.out.println(stringArrayList.toArray());
-//		System.out.println(stringArrayList.indexOf("1"));
 	}
 }
