@@ -55,6 +55,7 @@ class CustomList<T> {
 			}
 			this.storage = storage2;
 			size--;
+			toCheckStorage(size);
 		} else {
 			throw new IndexOutOfBoundsException();
 		}
@@ -72,6 +73,14 @@ class CustomList<T> {
 	private void toCheckStorage(int size) {
 		if (size == storage.length) {
 			Object[] storage2 = new Object[(int) (storage.length * 1.6)];
+			for (int i = 0; i < storage.length; i++) {
+				storage2[i] = storage[i];
+			}
+			this.storage = new Object[storage2.length];
+			this.storage = storage2;
+		}
+		if (size >storage.length*2) {
+			Object[] storage2 = new Object[(int) (storage.length / 1.6)];
 			for (int i = 0; i < storage.length; i++) {
 				storage2[i] = storage[i];
 			}
